@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+</head>
+<body class="body-gradient">
+    <script>
+        const c = document.getElementById("body");
+        const ctx = c.getContext("2d");
+        
+        // Create linear gradient
+        const grad=ctx.createLinearGradient(0,0, 0,130);
+        grad.addColorStop(0, "l ightblue");
+        grad.addColorStop(1, "darkblue");
+        
+        // Fill rectangle with gradient
+        ctx.fillStyle = grad;
+        ctx.fillRect(10,10, 280,130);
+        </script>
+    
+    <header>
+        
+        <script>
+            
+        </script>
+        <div id="nav-bar">
+            <div class="nav-bar_content">
+                <tr>
+                    <th>
+                        <img src="asset/sigma_studios.png" alt="">
+                        <input type="text" placeholder="Search our games...">
+                    </th>
+                    <th>
+                        <button>HOME</button>
+                    </th>
+                    <th style="float: left;">
+                        <button>GAMES</button>
+                    </th>
+                    <th style="float: left;">
+                        <button>ABOUT</button>
+                    </th>
+                    <th>
+                        <button>NEWS</button>
+                    </th>
+                    <th>
+                        <button>CAREER</button>
+                    </th>
+                </tr>
+            </div>
+        </div>
+
+        <script>
+            const cookies = document.getElementById("body");
+
+            setTimeout(showPopup,1000) //popup delay
+        
+            function showPopup() {
+                document.getElementById('cookies').style.visibility = "visible";
+                document.getElementById('cookies').style.opacity = "1";
+                document.getElementById('cookies-overlay').style.opacity = "100%";
+            }
+        </script>
+        
+        <div>
+            <div id="cookies">
+                <div class="cookies-contents">
+                    <h1>We use Cookies🍪</h1>
+                    <p>We use cookies to ensure you have the best browsing experience on our website. By using our site, you acknowledge that you have read and understood our <u>Cookie Policy</u> & <u>Privacy Policy</u> PRESS CONTROL + R TO CLOSE THE COOKIE POP-UP.</p>
+                </div>
+                <button>x</button>
+            </div>
+            <div class="cookies-overlay"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="bodies">
+            <div>
+                <video class="video" autoplay muted>
+                    <source src="asset/gameplay.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="bodies-video-gradient">
+            <canvas width="100%" height="50%"></canvas>
+        </div>
+
+        <div>
+            <h2 id="sigma-game-studio"><br>SIGMA  GAME  STUDIOS</h2>
+        </div>
+        <div>
+            <h3 class="introduction">"We craft worlds, we build universes, and we set the stage for legendary stories that players immerse themselves in. No, you won’t always see our names on the credits, but trust us — we’re the ones behind the magic. The true sigma-est of game development, where every detail, every line of code, and every pixel matters. We are the silent architects of the digital worlds you can’t stop thinking about. You might not know us, but we’re the reason you can’t put your controller down, and the reason you keep coming back for more. Welcome to the world of game studios that never stop pushing the boundaries of what’s possible. We work behind the scenes, and we do it because we’re the ones who shape what you play next."</h3>
+        </div>
+        <div>
+            <h1 class="our-games">OUR GAMES</h1>
+        </div>
+
+        <div class="game-collection">
+            <tr>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/sigmacraft.jpg" alt="">
+                    </div>
+                </th>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/sigmarilla.jpg" alt="">
+                    </div>
+                </th>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/blockrizz.jpg" alt="">
+                    </div>
+                </th>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/sigmawaystorizz.png" alt="">
+                      
+                    </div>
+                </th>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/didddys.png" alt="">
+                      
+                    </div>
+                </th>
+                <th>
+                    <div class="game-card">
+                        <img src="asset/dresstorizz.jpg" alt="">
+                        
+                    </div>
+                </th>
+            </tr>
+            <button class="right">▶</button>
+            <button class="left">◀</button>            
+        </div>
+        <div class="game-collection_sigma">
+            <h2>FAILURE DOESNT MEAN ITS GAME OVER"</h2>
+        </div>
+        <div class="about-us">
+            <h1>ABOUT US</h1>
+            <p class="about-us">We are Sigma Studios and we have been on the platform making known games for years, our latest achievement was "Sigma Rizz Awards 2024" which our game "Five Night at Diddy's" has won the award with viewer choice over 5M votes. We are currently focusing on young teens game taste and figuring out more genres. </p>
+            <img  src="asset/people/whole-crew.jpg">
+        </div>
+        <div class="members">
+            <h1>MEET OUR MEMBERS</h1>
+            <p class="members">Rangga, bertugas ketua dan membuat coding style, html dan membantu design video background. Jagad, bertugas utama sebagai ketua desain, membuat game dan gambar grafik serta pilihan warna. Audri, bertugas membuat grafis dan ide game, Milka bertugas membantu coding, Bintang bertugas membantu coding</p>
+        </div>
+        <canvas id="body"></canvas>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 SIGMA GAME STUDIOS website.hak cipta dilindungi</p>
+    </footer>
+    </tr>
+</body>
+</html>
